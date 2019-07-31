@@ -12,7 +12,7 @@ This repo contains all the code, videos, and Unity prefabs used on the McGurk Ef
 Unity should be ready to build the project and upload it to the Quest headset now.
 
 To collect the logs:
-1. change the working directory to: C:\Users\\<name>\AppData\Local\Android\Sdk\platform-tools
+1. change the working directory to: C:\Users\(name)\AppData\Local\Android\Sdk\platform-tools
 2. check the debug memory size: adb logcat -g
 3. if not 16Mb then set it to 16 Mb by: adb logcat -G 16M
 4. collect the logs using: adb logcat -s Unity DEBUG -d
