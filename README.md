@@ -1,8 +1,11 @@
 # McGurkEffectVR
 This repo contains all the code, videos, and Unity prefabs used on the McGurk Effect VR project
 
-The Oculus Integration asset, the Google Resonance Audio asset, and the Sky5X One asset were imported into Unity from the asset store.
-The Resources folder located inside the Assets folder should contain all videos that are to be used in the experience and the skybox that the experience should switch to when the audio only section is reached.
-Be sure to set any public variables for scripts or components attached to the prefabs in the UnityPrefabs.zip file in this repo.
-All videos used in this experiment are located on a google drive and can be accessed from the Videos file in this repo. In the Google Drive is also a text file that lists what audio and video are played as well as the talker number for each video.
-The audio files used to dub each video can be found in the Audios.zip file.
+1.Download the Unity package from Google Drive using the link in the text file titled Unity Package
+2.Import the package into Unity
+3.In Unity, go File -> Build Settings, switch the target platorm to Android and click Switch Platform
+4.In Unity, go Edit -> Project Settings -> Audio, set Spatializer Plugin and Ambisonic Decoer Plugin to Resonance Audio
+5.In Unity, go Edit -> Project Settings -> Player -> Other Settings, Delete Vulkan from the list of Graphics APIs and then check the box next to Auto Graphics API. Change the Package Name to com.DefaultCompany.ProductName. Change Minimum API Level to 19.
+6.In Unity, go Edit -> Project Settings -> Player -> XR Settings, ensure the box next to Virtual Reality Supported is checked, then add Oculus to the list of Virtual Reality SDKs.
+
+Unity should be ready to build the project and upload it to the Quest headset now.
