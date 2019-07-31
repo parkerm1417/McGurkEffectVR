@@ -8,6 +8,7 @@ This repo contains all the code, videos, and Unity prefabs used on the McGurk Ef
 5.In Unity, go Edit -> Project Settings -> Player -> Other Settings, Delete Vulkan from the list of Graphics APIs and then check the box next to Auto Graphics API. Change the Package Name to com.DefaultCompany.ProductName. Change Minimum API Level to 19.
 6.In Unity, go Edit -> Project Settings -> Player -> XR Settings, ensure the box next to Virtual Reality Supported is checked, then add Oculus to the list of Virtual Reality SDKs.
 
+
 Unity should be ready to build the project and upload it to the Quest headset now.
 
 To collect the logs:
